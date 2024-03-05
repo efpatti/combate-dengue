@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .titulopage {
-  font-size: large;
+  font-size: 38px;
+  text-align: center;
+  color: rgb(171, 21, 49);
+}
+.boxapresentacao {
+  border-left: solid 2px rgb(171, 21, 49);
+  border-right: solid 2px rgb(171, 21, 49);
 }
