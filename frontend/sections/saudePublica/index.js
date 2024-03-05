@@ -8,3 +8,4 @@ function Saude () {
         </div>
     )
 }
+export default Saude
