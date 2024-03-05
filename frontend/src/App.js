@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <Proliferacao />
+      <Sucata />
     </>
   );
 }
