@@ -22,9 +22,10 @@ const NavBarComp = () => {
 
   const navLinks = [
     { href: 'home', label: 'Home' },
-    { href: 'proliferacao', label: 'Proliferação' },
+    { href: 'proli', label: 'Proliferação' },
     { href: 'health', label: 'Saúde' },
-    { href: 'conscientizacao', label: 'Conscientização' },
+    { href: 'conci', label: 'Conscientização' },
+    { href: "sucata", label: "Sucatas" }
   ];
 
   const handleSetActive = (to) => {
@@ -72,7 +73,7 @@ const NavBarComp = () => {
   }, []);
 
   return (
-    <>
+    <section id="conscientizacao">
       <header className={`NavBar ${navbar ? 'border-b-2' : ''}`}>
         <nav className="nav-container">
           <div className="nav-left">
@@ -112,7 +113,7 @@ const NavBarComp = () => {
       >
         <IoMdArrowUp className="text-xl" size={16} />
       </button>
-    </>
+    </section>
   );
 };
 

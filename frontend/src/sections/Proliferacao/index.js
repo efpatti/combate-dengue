@@ -1,10 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./Proliferacao.css";
-import MosquitoUm from "../../img/mosquitoum.jpg";
 import "./Proliferacao.css";
 function Proliferacao() {
   return (
-    <div className="body">
+    <div className="body" id="proli">
       {" "}
       <p className="titulopage ">
         Proliferação da Dengue em entulhos e sucatas
