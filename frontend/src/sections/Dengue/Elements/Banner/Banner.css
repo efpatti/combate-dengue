@@ -1,0 +1,12 @@
+.h-screen {
+  margin-top: 50px;
+  height: 50vh;
+}
+
+.w-auto {
+  max-width: 25rem;
+}
+
+.bg-white-smoke {
+  background-color: whitesmoke;
+}
