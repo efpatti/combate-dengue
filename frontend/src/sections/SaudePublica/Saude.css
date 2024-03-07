@@ -4,12 +4,43 @@
 }
 .titulo-saude{
     color: white;
+    margin-left: 400px;
 }
 .texto-1{
+    margin-top: 90px;
+    width: 475px;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 65px;
+
 }
 .bolinha-1{
     background-color: #c02941;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    margin-top: 40px;
     
+}
+.foto-1{
+    width: 300px;
+    height: 300px;
+border-radius: 150px;
+margin-top: 25px;
+margin-left: 25px;
+}
+.texto-2{
+    margin-top: 120px;
+    width: 475px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: 60px;
+}
+.bolinha-2{
+    background-color: #c02941;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    margin-top: 30px;
+    margin-left: 70px;
 }
