@@ -1,17 +1,17 @@
 import React from "react";
 import "../Conscientização/Conscientização.css";
 import { Col, Container, Row } from "react-bootstrap";
-import DengueZ from "../../img/consiente.jpg";
+
 
 function Conscientização() {
   return (
     <div className="body1">
-      <br />
-      <br />
+     
       <h1> Nessecidades e Conscientização</h1>
       <Container>
-        <Col></Col>
         <Row>
+        <Col>
+        <div className="caixa-guizao">
           <h2 className="texto">
             Estamos no verão, e a quantidade de alertas de prevenção ao surto da
             dengue deve ser redobrada. Por esse ser um período quente e com
@@ -30,12 +30,11 @@ function Conscientização() {
             poderão fazer toda a diferença e ser um grande aliado para diminuir
             os casos de dengue.
           </h2>
-        </Row>
-        <Col>
-          <Row>
-            <img src={DengueZ} />
-          </Row>
-        </Col>
+          </div>
+          </Col>
+        
+        
+         </Row>
       </Container>
     </div>
   );

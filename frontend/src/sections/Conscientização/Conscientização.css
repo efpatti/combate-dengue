@@ -1,6 +1,12 @@
 .body1 {
-  background-color: rgb(224, 39, 18);
+  background-color: #e9525f;
 }
 .texto {
   margin-left: 15 px;
+}
+.caixa-guizao{
+background-color: #960022;
+width: 450px;
+height: 450px;
+
 }
