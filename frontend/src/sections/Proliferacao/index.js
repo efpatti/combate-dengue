@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-import { Container } from "react-bootstrap";
-import "./Proliferacao.css";
-import MosquitoUm from "../../img/mosquitoum.jpg";
-=======
 import { Container, Row, Col } from "react-bootstrap";
 import "./Proliferacao.css";
 import MosquitoUm from "../../img/mosquitoum.jpg";
 import "./Proliferacao.css";
->>>>>>> 1aa5228049a46f54d9e9b13397baf0f8a92396b9
 function Proliferacao() {
   return (
     <div className="body">

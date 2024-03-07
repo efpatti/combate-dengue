@@ -1,18 +1,22 @@
 import React from "react";
 import "../Conscientização/Conscientização.css";
 import { Col, Container, Row } from "react-bootstrap";
-
+import contradengue from "../../img/denguecontra.jpg"
 
 function Conscientização() {
   return (
-    <div className="body1">
-     
-      <h1> Nessecidades e Conscientização</h1>
+    <div className="bodyP1">
+     <br/>
+          <br/>
+      <h1 className="titulo-guizao"> Necessidades e Conscientização</h1>
+        <br/>
+          <br/>
       <Container>
         <Row>
+        
         <Col>
         <div className="caixa-guizao">
-          <h2 className="texto">
+          <p className="texto-guizao">
             Estamos no verão, e a quantidade de alertas de prevenção ao surto da
             dengue deve ser redobrada. Por esse ser um período quente e com
             frequentes pancadas de chuva, a velocidade de reprodução do mosquito
@@ -29,13 +33,17 @@ function Conscientização() {
             a conscientização da população em realizar determinadas tarefas,
             poderão fazer toda a diferença e ser um grande aliado para diminuir
             os casos de dengue.
-          </h2>
+          </p>
           </div>
           </Col>
-        
+        <Col>
+        <img className="fotoguizao" src={contradengue}/>
+        </Col>
         
          </Row>
       </Container>
+      <br/>
+          <br/>
     </div>
   );
 }
