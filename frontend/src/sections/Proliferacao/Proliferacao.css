@@ -121,8 +121,9 @@
   background-color: #ab1531;
 }
 .introduction {
-  color: rgb(215, 206, 206);
+  color: rgb(255, 255, 255);
   font-size: 19px;
+  text-align: justify;
 }
 .linhaslaterais {
   border-left: solid 2px #d8bfc4;
