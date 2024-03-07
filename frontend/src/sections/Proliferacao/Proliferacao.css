@@ -4,7 +4,31 @@
   text-align: center;
   color: rgb(171, 21, 49);
 }
-.boxapresentacao {
-  border-left: solid 2px rgb(171, 21, 49);
-  border-right: solid 2px rgb(171, 21, 49);
+.caixa4 {
+  text-align: center;
+  background-color: #d11313;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  margin-left: 80px;
+  margin-bottom: 70px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.caixa4:hover {
+  transform: rotateY(180deg);
+}
+.front,
+.back {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  backface-visibility: hidden;
+}
+.back {
+  transform: rotateY(180deg);
+}
+.back {
+  background-color: rgb(171, 21, 49);
 }
