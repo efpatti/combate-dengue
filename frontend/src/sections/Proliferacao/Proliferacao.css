@@ -1,16 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .titulopage {
   font-size: 38px;
   text-align: center;
-  color: rgb(171, 21, 49);
+  color: rgb(249, 249, 249);
 }
 .caixa4 {
   text-align: center;
-  background-color: #d11313;
-  width: 250px;
-  height: 250px;
+  background-color: #dda5a5;
+  width: 200px;
+  height: 200px;
   border-radius: 125px;
-  margin-left: 80px;
+  margin-left: 20px;
   margin-bottom: 70px;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -29,6 +28,14 @@
 .back {
   transform: rotateY(180deg);
 }
-.back {
-  background-color: rgb(171, 21, 49);
+.body {
+  background-color: #ab1531;
+}
+.introduction {
+  color: rgb(215, 206, 206);
+  font-size: large;
+}
+.linhaslaterais {
+  border-left: solid 2px #a85f6c;
+  border-right: #a85f6c solid 2px;
 }
