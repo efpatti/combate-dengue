@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "../proliferacao/Proliferacao.css";
+import "./Proliferacao.css";
 function Proliferacao() {
   return (
     <>
