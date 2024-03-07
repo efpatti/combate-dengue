@@ -9,7 +9,7 @@ import entulho from "../../img/entulho.jpg";
 import reciclagem from "../../img/reciclagem.jpg";
 function Sucata() {
   return (
-    <div className="body-dina">
+    <div className="body-dina" id="sucata">
       {" "}
       <br></br>
       <Container>

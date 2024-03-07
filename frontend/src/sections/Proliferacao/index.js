@@ -63,7 +63,7 @@ function Proliferacao() {
                   <p>Ambiente protegido</p>
                 </div>
               </div>
-              <div className="back color">
+              <div className="back">
                 <p>
                   Áreas sombreadas e protegidas <br /> do vento mantêm condições
                   úmidas essenciais para o desenvolvimento de <br /> ovos,
