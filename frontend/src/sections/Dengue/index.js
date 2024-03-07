@@ -3,7 +3,7 @@ import Banner from "./Elements/Banner"
 import "./Dengue.css";
 function Dengue() {
   return (
-    <div className="bg-semi bg-d" id="home">
+    <div className="bg-d" id="home">
       <Banner />
       <TabsDengue />
     </div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Container, Table, } from "react-bootstrap";
-import "./Api.css";
 
 function Api() {
   const [dadosDengue, setDadosDengue] = useState([]);
@@ -18,8 +17,8 @@ function Api() {
   }, []);
 
   return (
-    <Container>
-      <Table striped bordered hover>
+    <Container className="mb-0">
+      <Table striped bordered hover className="mb-0 p-5">
         <thead>
           <tr>
             <th>Data</th>

@@ -10,9 +10,9 @@ function App() {
       <NavBarComp />
       <Dengue />
       <Proliferacao />
+      <Sucata />
       <Saude />
       <Conscientizacao />
-      <Sucata />
     </>
   );
 }
