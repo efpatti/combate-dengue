@@ -1,0 +1,23 @@
+.bodyP1 {
+  background-color: #e9525f;
+}
+.texto-guizao {
+color: white;
+width: 450px  ;
+margin-left: 20px ;
+ padding-top: 20px;
+}
+.caixa-guizao{
+background-color: #d43e50;
+width: 500px;
+height: 500px;
+border-radius: 50px;
+
+}
+.titulo-guizao{
+  color: white;
+  margin-left: 350px;
+}
+.fotoguizao{
+  width: 550px;
+}

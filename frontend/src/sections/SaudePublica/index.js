@@ -41,4 +41,4 @@ function Saude () {
         </div>
     )
 }
-export default Saude
+export default Saude;
