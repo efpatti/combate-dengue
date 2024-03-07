@@ -1,0 +1,26 @@
+.body-dina {
+  background-color: #c02941;
+}
+
+.caixaMedina {
+  background-color: #d43e50;
+  width: 300px;
+  height: 450px;
+  margin-left: 50px;
+  border-radius: 10%;
+}
+.imgSucata {
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 10%;
+}
+.textoSucata {
+  color: white;
+  margin: 5px 5px 5px 5px;
+}
+.textoSucato {
+  color: white;
+  margin-left: 65px;
+}
