@@ -6,12 +6,12 @@ function Proliferacao() {
   return (
     <div className="body">
       {" "}
-      <p className="titulopage mt-3">
+      <p className="titulopage ">
         Proliferação da Dengue em entulhos e sucatas
       </p>
       <Container>
         <Row>
-          <Col className="linhaslaterais">
+          <Col className="linhaslaterais mt-3">
             <p className="introduction">
               A proliferação do mosquito Aedes aegypti, responsável pela
               transmissão de doenças como dengue, zika e chikungunya, em locais
@@ -26,107 +26,67 @@ function Proliferacao() {
         <Row>
           <Col className="caixaUm">
             {" "}
-            <div className="caixa4 mt-4">
+            <div className="caixa1 mt-4">
               <div className="front">
-                <div className="texto">
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <h4>habilidades individuais</h4>
+                <div className="texto1">
+                  <p>Acúmulo de água</p>
                 </div>
               </div>
               <div className="back">
-                <br />
-                <br />
-                <h5>-dedicaçao</h5>
-                <h5>-saber trabalhar em grupo</h5>
-                <h5>-bom em resolver desafios do cotidiano</h5>
-                <h5>-responsabilidade alta</h5>
+                <p>
+                  Reprodução em locais
+                  <br /> de água parada, ambientes <br />
+                  com sucata acumulada, como <br /> pneus e latas.
+                </p>
               </div>
             </div>
           </Col>
           <Col className="caixaDois">
-            <div className="caixa4 mt-4">
+            <div className="caixa2 mt-4">
               <div className="front">
-                <div className="texto">
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <h4>habilidades individuais</h4>
+                <div className="texto2">
+                  <p>Ciclo Reprodutivo rápido</p>
                 </div>
               </div>
               <div className="back">
-                <br />
-                <br />
-                <h5>-dedicaçao</h5>
-                <h5>-saber trabalhar em grupo</h5>
-                <h5>-bom em resolver desafios do cotidiano</h5>
-                <h5>-responsabilidade alta</h5>
+                <p>
+                  O ciclo de vida curto do Aedes aegypti permite rápida
+                  multiplicação, resultando em proliferação de um dia para o
+                  outro.
+                </p>
               </div>
             </div>
           </Col>
           <Col className="caixaTres">
-            <div className="caixa4 mt-4">
+            <div className="caixa3 mt-4">
               <div className="front">
-                <div className="texto">
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <h4>habilidades individuais</h4>
+                <div className="texto3">
+                  <p>Ambiente protegido</p>
                 </div>
               </div>
-              <div className="back">
-                <br />
-                <br />
-                <h5>-dedicaçao</h5>
-                <h5>-saber trabalhar em grupo</h5>
-                <h5>-bom em resolver desafios do cotidiano</h5>
-                <h5>-responsabilidade alta</h5>
+              <div className="back color">
+                <p>
+                  Áreas sombreadas e protegidas <br /> do vento mantêm condições
+                  úmidas essenciais para o desenvolvimento de <br /> ovos,
+                  larvas e pupas.
+                </p>
               </div>
             </div>
           </Col>
           <Col className="caixaQuatro">
             <div className="caixa4 mt-4">
               <div className="front">
-                <div className="texto">
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <h4>habilidades individuais</h4>
+                <div className="texto4">
+                  <p>Falta de concientização</p>
                 </div>
               </div>
               <div className="back">
-                <br />
-                <br />
-                <h5>-dedicaçao</h5>
-                <h5>-saber trabalhar em grupo</h5>
-                <h5>-bom em resolver desafios do cotidiano</h5>
-                <h5>-responsabilidade alta</h5>
-              </div>
-            </div>
-          </Col>
-          <Col className="caixaCinco">
-            <div className="caixa4 mt-4">
-              <div className="front">
-                <div className="texto">
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <h4>habilidades individuais</h4>
-                </div>
-              </div>
-              <div className="back">
-                <br />
-                <br />
-                <h5>-dedicaçao</h5>
-                <h5>-saber trabalhar em grupo</h5>
-                <h5>-bom em resolver desafios do cotidiano</h5>
-                <h5>-responsabilidade alta</h5>
+                <p>
+                  É crucial educar a população <br />
+                  sobre os riscos associados ao descarte incorreto de materiais,
+                  incentivando <br />
+                  atitudes responsáveis.
+                </p>
               </div>
             </div>
           </Col>
