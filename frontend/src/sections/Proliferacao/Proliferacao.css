@@ -1,19 +1,66 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .titulopage {
   font-size: 38px;
   text-align: center;
-  color: rgb(171, 21, 49);
+  color: rgb(249, 249, 249);
 }
-.caixa4 {
+.caixa1 {
   text-align: center;
-  background-color: #d11313;
+  background-color: #e8b7b7;
   width: 250px;
   height: 250px;
   border-radius: 125px;
-  margin-left: 80px;
+  margin-left: 10px;
   margin-bottom: 70px;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  font-size: large;
+  border: solid 5px #e4889c;
+}
+.caixa1:hover {
+  transform: rotateY(180deg);
+}
+
+.caixa2 {
+  text-align: center;
+  background-color: #e8b7b7;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  margin-left: 10px;
+  margin-bottom: 70px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border: solid 5px #e4889c;
+}
+.caixa2:hover {
+  transform: rotateY(180deg);
+}
+.caixa3 {
+  text-align: center;
+  background-color: #e8b7b7;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  margin-left: 10px;
+  margin-bottom: 70px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border: solid 5px #e4889c;
+}
+.caixa3:hover {
+  transform: rotateY(180deg);
+}
+.caixa4 {
+  text-align: center;
+  background-color: #e8b7b7;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  margin-left: 10px;
+  margin-bottom: 70px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border: solid 5px #e4889c;
 }
 .caixa4:hover {
   transform: rotateY(180deg);
@@ -21,14 +68,64 @@
 .front,
 .back {
   position: absolute;
+  margin-right: 58px;
   width: 250px;
-  height: 250px;
+  height: 350px;
   border-radius: 125px;
+  margin-right: 20px;
   backface-visibility: hidden;
+  margin-top: 70px;
+  color: rgb(0, 0, 0);
 }
 .back {
   transform: rotateY(180deg);
 }
-.back {
-  background-color: rgb(171, 21, 49);
+
+.texto1 {
+  margin-top: 25px;
+  margin-right: 14px;
+  color: #ae4049;
+  font-size: 30px;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.texto2 {
+  margin-top: 20px;
+  color: #ae4049;
+
+  font-size: 30px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.texto3 {
+  margin-top: 7px;
+  color: #ab1531;
+  font-size: 30px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.texto4 {
+  margin-top: 7px;
+  color: #ae4049;
+  font-size: 30px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.body {
+  background-color: #ab1531;
+}
+.introduction {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  text-align: justify;
+}
+.linhaslaterais {
+  border-left: solid 2px #d8bfc4;
+  border-right: #d8bfc4 solid 2px;
 }

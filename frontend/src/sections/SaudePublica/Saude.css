@@ -1,3 +1,58 @@
 .body1{
     background-color: #D43E50;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.titulo-saude{
+    color: white;
+    margin-left: 400px;
+}
+.texto-1{
+    margin-top: 90px;
+    width: 475px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 65px;
+    border-bottom: solid 2px #c02941;
+border-left: #c02941 solid 2px;
+
+}
+.texto-1 p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.bolinha-1{
+    background-color: #c02941;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    margin-top: 40px;
+    
+}
+.foto-1{
+    width: 300px;
+    height: 300px;
+border-radius: 150px;
+margin-top: 25px;
+margin-left: 25px;
+}
+.texto-2{
+    margin-top: 120px;
+    width: 475px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: 60px;
+border-bottom: solid 2px #c02941;
+border-right: #c02941 solid 2px;
+}
+.texto-2 p{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.bolinha-2{
+    background-color: #c02941;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    margin-top: 30px;
+    margin-left: 70px;
 }
